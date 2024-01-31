@@ -1,0 +1,12 @@
+{
+  "name": "require-hook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "run": "node -r ./require.js app.ts"
+  },
+  "dependencies": {
+    "esbuild": "^0.20.0"
+  }
+}
